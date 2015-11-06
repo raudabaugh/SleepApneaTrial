@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		222DDEE21BDE7258003C7630 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222DDEE11BDE7258003C7630 /* HealthKit.framework */; };
+		222DDEE41BDE72A4003C7630 /* HealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222DDEE31BDE72A4003C7630 /* HealthManager.swift */; };
 		2273FB231BDD700B00318B48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2273FB221BDD700B00318B48 /* AppDelegate.swift */; };
 		2273FB251BDD700B00318B48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2273FB241BDD700B00318B48 /* ViewController.swift */; };
 		2273FB281BDD700B00318B48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2273FB261BDD700B00318B48 /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		2273FB2D1BDD700B00318B48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2273FB2B1BDD700B00318B48 /* LaunchScreen.storyboard */; };
 		2273FB381BDD700B00318B48 /* SleepApneaTrialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2273FB371BDD700B00318B48 /* SleepApneaTrialTests.swift */; };
 		2273FB431BDD700B00318B48 /* SleepApneaTrialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2273FB421BDD700B00318B48 /* SleepApneaTrialUITests.swift */; };
+		D43A90592CA4F25623182979 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AE00D7C88E31101CE61F358 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C9978BDB1238A5029DF7BA9 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		222DDEE01BDE7258003C7630 /* SleepApneaTrial.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SleepApneaTrial.entitlements; sourceTree = "<group>"; };
+		222DDEE11BDE7258003C7630 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		222DDEE31BDE72A4003C7630 /* HealthManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HealthManager.swift; path = ../HealthManager.swift; sourceTree = "<group>"; };
 		2273FB1F1BDD700B00318B48 /* SleepApneaTrial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SleepApneaTrial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2273FB221BDD700B00318B48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2273FB241BDD700B00318B48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,8 @@
 		2273FB3E1BDD700B00318B48 /* SleepApneaTrialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SleepApneaTrialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2273FB421BDD700B00318B48 /* SleepApneaTrialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepApneaTrialUITests.swift; sourceTree = "<group>"; };
 		2273FB441BDD700B00318B48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AE00D7C88E31101CE61F358 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		769C875A19A0EE271C2AC9DE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +63,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				222DDEE21BDE7258003C7630 /* HealthKit.framework in Frameworks */,
+				D43A90592CA4F25623182979 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +92,8 @@
 				2273FB361BDD700B00318B48 /* SleepApneaTrialTests */,
 				2273FB411BDD700B00318B48 /* SleepApneaTrialUITests */,
 				2273FB201BDD700B00318B48 /* Products */,
+				E950AC5056FD8B52F05F1999 /* Pods */,
+				D595736AE469C640272DFDFC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,7 +110,9 @@
 		2273FB211BDD700B00318B48 /* SleepApneaTrial */ = {
 			isa = PBXGroup;
 			children = (
+				222DDEE01BDE7258003C7630 /* SleepApneaTrial.entitlements */,
 				2273FB221BDD700B00318B48 /* AppDelegate.swift */,
+				222DDEE31BDE72A4003C7630 /* HealthManager.swift */,
 				2273FB241BDD700B00318B48 /* ViewController.swift */,
 				2273FB261BDD700B00318B48 /* Main.storyboard */,
 				2273FB291BDD700B00318B48 /* Assets.xcassets */,
@@ -125,6 +140,24 @@
 			path = SleepApneaTrialUITests;
 			sourceTree = "<group>";
 		};
+		D595736AE469C640272DFDFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				222DDEE11BDE7258003C7630 /* HealthKit.framework */,
+				3AE00D7C88E31101CE61F358 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E950AC5056FD8B52F05F1999 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				769C875A19A0EE271C2AC9DE /* Pods.debug.xcconfig */,
+				0C9978BDB1238A5029DF7BA9 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +165,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2273FB471BDD700B00318B48 /* Build configuration list for PBXNativeTarget "SleepApneaTrial" */;
 			buildPhases = (
+				553806263340347501A6ED63 /* Check Pods Manifest.lock */,
 				2273FB1B1BDD700B00318B48 /* Sources */,
 				2273FB1C1BDD700B00318B48 /* Frameworks */,
 				2273FB1D1BDD700B00318B48 /* Resources */,
+				8669271DBDA01EC8FDEDC1D6 /* Embed Pods Frameworks */,
+				919F4454887F71006D2DE437 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +229,12 @@
 				TargetAttributes = {
 					2273FB1E1BDD700B00318B48 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 4496ANCXMN;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
 					};
 					2273FB321BDD700B00318B48 = {
 						CreatedOnToolsVersion = 7.1;
@@ -251,12 +293,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		553806263340347501A6ED63 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8669271DBDA01EC8FDEDC1D6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		919F4454887F71006D2DE437 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2273FB1B1BDD700B00318B48 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2273FB251BDD700B00318B48 /* ViewController.swift in Sources */,
+				222DDEE41BDE72A4003C7630 /* HealthManager.swift in Sources */,
 				2273FB231BDD700B00318B48 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -395,23 +486,33 @@
 		};
 		2273FB481BDD700B00318B48 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 769C875A19A0EE271C2AC9DE /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SleepApneaTrial/SleepApneaTrial.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SleepApneaTrial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.cornell.tech.SleepApneaTrial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		2273FB491BDD700B00318B48 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C9978BDB1238A5029DF7BA9 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SleepApneaTrial/SleepApneaTrial.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SleepApneaTrial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.cornell.tech.SleepApneaTrial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -482,6 +583,7 @@
 				2273FB491BDD700B00318B48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2273FB4A1BDD700B00318B48 /* Build configuration list for PBXNativeTarget "SleepApneaTrialTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +592,7 @@
 				2273FB4C1BDD700B00318B48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2273FB4D1BDD700B00318B48 /* Build configuration list for PBXNativeTarget "SleepApneaTrialUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +601,7 @@
 				2273FB4F1BDD700B00318B48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
